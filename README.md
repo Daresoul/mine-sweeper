@@ -1,7 +1,7 @@
 # mine-sweeper
 A game of minesweeper created by me, with a little help of ideas
 
-##The game
+Yass
 Just pick a size of the map you wanna play and how many bombs ( if 0 bombs is picked it will automatically make 14% of them bombs )
 
 ##Change stuff
