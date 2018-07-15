@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <!-- For jquery libary -->
+  <script src="../../../libaries/jquery/jquery-3.3.1.js"></script>
+
+  <!-- For p5.js libary -->
+  <script src="../../../libaries/p5/p5.min.js"></script>
+
+  <!-- Alt til tree objected -->
+  <script src="js/mine.js"></script>
+
+  <!-- Alt til node objekted -->
+  <script src="js/board.js"></script>
+
+  <!-- Hvor vi forbinder disse forskellige biblioteker sammen -->
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+<p>Der er <span id="bomber"></span> bomber i spillet</p>
+<p>Banen er i et grid af <span id="gridx"></span> x <span id="gridy"></span></p>
+<div>
+  <input type="number" value="0" placeholder="Antal bomber (0 giver automatisk)" id="bombs">
+  <input type="number" value="10" placeholder="Antal rækker x - akse" id="y">
+  <input type="number" value="10" placeholer="Antal rækker y - akse" id="x">
+  <input type="button" value="restart" id="reset">
+</div>
+
+
+
+<h1 style="display: none">You won!<h1>
+</body>
+
+</html>
